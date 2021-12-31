@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<script src="js/jquery-3.2.1.min.js"></script>
+		<script src="js/mqttws31.js"></script>
+		<script src="js/MqttConnect.js"></script>
+		<script src="js/index.js"></script>
+	</head>
+	<body>
+		<div
+			style="line-height: 100px;width: 400px;height: 300px;position: absolute;float: left;left: 30%;top: 20%;background-color:lightgrey">
+			<input id="sendMsg" type="text"
+				style="margin-top: 70px;margin-left: 40px;width: 200px;height: 50px;color: skyblue;font-size: 17px;" />
+			<button onclick="send()" type="button"
+				style="width: 100px;height: 30px;background-color: lightsteelblue;">发送信息</button>
+			<br />
+			<input id="recvMsg" type="text"
+				style="background-color: lavenderblush;margin-left: 40px;width: 200px;height: 50px;color: steelblue;font-size: 17px;" />
+		</div>
+	</body>
+</html>
